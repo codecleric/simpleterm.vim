@@ -158,27 +158,27 @@ Maps
 **Default**
 
 .. code:: vim
+    nnor <Leader>ts :Sshow<CR>
+    nnor <Leader>th :Shide<CR>
+    nnor <Leader>tt :Stoggle<CR>
 
-    nnor <Leader>sw :Sshow<CR>
-    nnor <Leader>sh :Shide<CR>
-    nnor <Leader>ss :Stoggle<CR>
+    nnor <Leader>tc :Scd<CR>
 
-    nnor <Leader>sc :Scd<CR>
+    nnor <Leader>te :Sexe<Space>
+    nnor <Leader>tr :Srun<Space>
 
-    nnor <Leader>se :Sexe<Space>
-    nnor <Leader>sr :Srun<Space>
+    nnor <Leader>tl :Sline<CR>
+    vnor <Leader>tl :Sline<CR>      
+    nnor <Leader>tf :Sfile<CR>
+    nnor <Leader>tp :Spaste<CR>
 
-    nnor <Leader>sl :Sline<CR>
-    vnor <Leader>sl :Sline<CR>      
-    nnor <Leader>sf :Sfile<CR>
-    nnor <Leader>sp :Spaste<CR>
+    nnor <Leader>ta :Sadd<CR>
+    " nnor <Leader>tk :Skill<CR>
+    nnor <Leader>tb :Sbind<CR>
 
-    nnor <Leader>sa :Sadd<CR>
-    nnor <Leader>sb :Sbind<CR>
-    " nnor <Leader>sk :Skill<CR>
 
-    nnor <Leader>s0 :Sshow -1<CR>
-
+    nnor <Leader>t0 :Sshow -1<CR>
+    
     " In terminal, use <ESC> to escape terminal-mode
     " then, use a or i to back to terminal-mode, like insert-mode
     tnor <ESC>   <C-\><C-n>          
